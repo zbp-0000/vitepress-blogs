@@ -35,6 +35,9 @@ jobs:
           echo "  IdentityFile ~/.ssh/id_ed25519" >> ~/.ssh/config
           ssh-keyscan -p ${{ secrets.SERVER_PORT || 22 }} ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
 
+      - name: Test SSH Connection
+        run: ssh -vvv ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} "echo SSH连接成功"
+
       - name: Deploy with rsync
         run: |
           rsync -avz --delete \
