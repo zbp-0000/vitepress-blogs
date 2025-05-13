@@ -1,0 +1,44 @@
+name: Deploy to CentOS
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          echo "Host ${{ secrets.SERVER_IP }}" >> ~/.ssh/config
+          echo "  HostName ${{ secrets.SERVER_IP }}" >> ~/.ssh/config
+          echo "  User ${{ secrets.SERVER_USER }}" >> ~/.ssh/config
+          echo "  Port ${{ secrets.SERVER_PORT || 22 }}" >> ~/.ssh/config
+          echo "  IdentityFile ~/.ssh/id_ed25519" >> ~/.ssh/config
+          ssh-keyscan -p ${{ secrets.SERVER_PORT || 22 }} ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
+
+      - name: Deploy with rsync
+        run: |
+          rsync -avz --delete \
+          --exclude .git \
+          --exclude .github \
+          ./dist/ \
+          ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/var/www/app/
