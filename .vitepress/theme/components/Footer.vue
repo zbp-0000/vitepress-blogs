@@ -24,7 +24,7 @@
           <span class="by">Powered by</span>
           <span class="name">VitePress</span>
         </a>
-        <a class="theme link" href="https://github.com/imsyy/vitepress-theme-curve" target="_blank">
+        <a class="theme link" href="https://github.com/zbp-0000vitepress-theme-curve" target="_blank">
           <span class="name">主题</span>
         </a>
         <a class="rss link" href="https://blog.imsyy.top/rss.xml" target="_blank">

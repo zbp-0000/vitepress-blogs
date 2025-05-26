@@ -8,7 +8,7 @@
       image="https://pic.efefee.cn/uploads/2024/02/27/65dd8dae6043c.webp"
     >
       <template #footer-slot>
-        <a class="to-github" href="https://github.com/imsyy/" target="_blank">
+        <a class="to-github" href="https://github.com/zbp-0000" target="_blank">
           <i class="iconfont icon-github"></i>
           <span>前往 Github</span>
         </a>

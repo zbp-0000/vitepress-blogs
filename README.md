@@ -1,7 +1,7 @@
 <h1 align="center"> Curve </h1>
 <p align="center">A Simple VitePress Theme</p>
 <p align="center">
-  <img src="https://github.com/imsyy/vitepress-theme-curve/assets/42232682/bed62689-cfd8-4d98-b946-24555d4ce1fb" alt="curve-logo" />
+  <img src="https://github.com/zbp-0000vitepress-theme-curve/assets/42232682/bed62689-cfd8-4d98-b946-24555d4ce1fb" alt="curve-logo" />
 </p>
 
 ---
@@ -18,7 +18,7 @@ Docs: 📖 [主题文档](https://blog.imsyy.top/pages/categories/%E4%B8%BB%E9%A
 
 ## Hello
 
-🎉 你好啊，很高兴你选择了 [vitepress-theme-curve](https://github.com/imsyy/vitepress-theme-curve)，你可以查看 [主题文档](https://blog.imsyy.top/pages/categories/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3) 以了解更多，如果你在使用本主题时遇到问题，你可以在 [GitHub](https://github.com/imsyy/vitepress-theme-curve) 中正确的提交 [issues](https://github.com/imsyy/vitepress-theme-curve/issues) 以获取社区的帮助。
+🎉 你好啊，很高兴你选择了 [vitepress-theme-curve](https://github.com/zbp-0000vitepress-theme-curve)，你可以查看 [主题文档](https://blog.imsyy.top/pages/categories/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3) 以了解更多，如果你在使用本主题时遇到问题，你可以在 [GitHub](https://github.com/zbp-0000vitepress-theme-curve) 中正确的提交 [issues](https://github.com/zbp-0000vitepress-theme-curve/issues) 以获取社区的帮助。
 
 ## 快速开始
 

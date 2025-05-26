@@ -185,32 +185,32 @@ export const themeConfig = {
         {
           icon: "/images/logo/logo.webp",
           name: "Curve",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
+          url: "https://github.com/zbp-0000vitepress-theme-curve",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
           name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
+          url: "https://github.com/zbp-0000SPlayer",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
           name: "Snavigation",
-          url: "https://github.com/imsyy/SPlayer",
+          url: "https://github.com/zbp-0000SPlayer",
         },
         {
           icon: "/images/logo/logo.webp",
           name: "Home",
-          url: "https://github.com/imsyy/home",
+          url: "https://github.com/zbp-0000home",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
           name: "DailyHotApi",
-          url: "https://github.com/imsyy/DailyHotApi",
+          url: "https://github.com/zbp-0000DailyHotApi",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
           name: "site-status",
-          url: "https://github.com/imsyy/site-status",
+          url: "https://github.com/zbp-0000site-status",
         },
       ],
     },
@@ -276,10 +276,10 @@ export const themeConfig = {
       {
         text: "项目",
         items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
+          { text: "Home", link: "https://github.com/zbp-0000home/", newTab: true },
+          { text: "SPlayer", link: "https://github.com/zbp-0000SPlayer/", newTab: true },
+          { text: "DailyHotApi", link: "https://github.com/zbp-0000DailyHotApi/", newTab: true },
+          { text: "Snavigation", link: "https://github.com/zbp-0000Snavigation/", newTab: true },
         ],
       },
       {
@@ -378,7 +378,7 @@ export const themeConfig = {
     },
   },
   // 音乐播放器
-  // https://github.com/imsyy/Meting-API
+  // https://github.com/zbp-0000Meting-API
   music: {
     enable: false,
     // url
