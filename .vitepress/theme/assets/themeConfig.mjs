@@ -3,13 +3,13 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "Peng",
     // 站点描述
     description: "Hello World",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://blog.bopeng.top",
     // 语言
     lang: "zh-CN",
     // 作者
@@ -17,7 +17,7 @@ export const themeConfig = {
       name: "Admin",
       cover: "/images/logo/logo.webp",
       email: "114514@gmail.com",
-      link: "https://www.imsyy.top",
+      link: "https://www.bopeng.top",
     },
   },
   // 备案信息
@@ -152,68 +152,68 @@ export const themeConfig = {
           name: "主站",
           url: "/",
         },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
-        },
+        // {
+        //   icon: "/images/logo/logo.webp",
+        //   name: "博客镜像站",
+        //   url: "https://blog-backup.imsyy.top/",
+        // },
       ],
     },
-    {
-      name: "服务",
-      list: [
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "站点监测",
-          url: "https://status.imsyy.top/",
-        },
-      ],
-    },
-    {
-      name: "项目",
-      list: [
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Curve",
-          url: "https://github.com/zbp-0000vitepress-theme-curve",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-          name: "SPlayer",
-          url: "https://github.com/zbp-0000SPlayer",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "Snavigation",
-          url: "https://github.com/zbp-0000SPlayer",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Home",
-          url: "https://github.com/zbp-0000home",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "DailyHotApi",
-          url: "https://github.com/zbp-0000DailyHotApi",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "site-status",
-          url: "https://github.com/zbp-0000site-status",
-        },
-      ],
-    },
+    // {
+    //   name: "服务",
+    //   list: [
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+    //       name: "起始页",
+    //       url: "https://nav.imsyy.top/",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+    //       name: "今日热榜",
+    //       url: "https://hot.imsyy.top/",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+    //       name: "站点监测",
+    //       url: "https://status.imsyy.top/",
+    //     },
+    //   ],
+    // },
+    // {
+    //   name: "项目",
+    //   list: [
+    //     {
+    //       icon: "/images/logo/logo.webp",
+    //       name: "Curve",
+    //       url: "https://github.com/zbp-0000vitepress-theme-curve",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
+    //       name: "SPlayer",
+    //       url: "https://github.com/zbp-0000SPlayer",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+    //       name: "Snavigation",
+    //       url: "https://github.com/zbp-0000SPlayer",
+    //     },
+    //     {
+    //       icon: "/images/logo/logo.webp",
+    //       name: "Home",
+    //       url: "https://github.com/zbp-0000home",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+    //       name: "DailyHotApi",
+    //       url: "https://github.com/zbp-0000DailyHotApi",
+    //     },
+    //     {
+    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+    //       name: "site-status",
+    //       url: "https://github.com/zbp-0000site-status",
+    //     },
+    //   ],
+    // },
   ],
   // 封面配置
   cover: {
@@ -273,15 +273,15 @@ export const themeConfig = {
           { text: "文章归档", link: "/pages/archives", newTab: true },
         ],
       },
-      {
-        text: "项目",
-        items: [
-          { text: "Home", link: "https://github.com/zbp-0000home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/zbp-0000SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/zbp-0000DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/zbp-0000Snavigation/", newTab: true },
-        ],
-      },
+      // {
+      //   text: "项目",
+      //   items: [
+      //     { text: "Home", link: "https://github.com/zbp-0000home/", newTab: true },
+      //     { text: "SPlayer", link: "https://github.com/zbp-0000SPlayer/", newTab: true },
+      //     { text: "DailyHotApi", link: "https://github.com/zbp-0000DailyHotApi/", newTab: true },
+      //     { text: "Snavigation", link: "https://github.com/zbp-0000Snavigation/", newTab: true },
+      //   ],
+      // },
       {
         text: "专栏",
         items: [
@@ -299,19 +299,19 @@ export const themeConfig = {
           { text: "版权协议", link: "/pages/cc" },
         ],
       },
-      {
-        text: "服务",
-        items: [
-          { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
-          { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
-          { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
-          {
-            text: "反馈投诉",
-            link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
-            newTab: true,
-          },
-        ],
-      },
+      // {
+      //   text: "服务",
+      //   items: [
+      //     { text: "站点状态", link: "https://status.imsyy.top/", newTab: true },
+      //     { text: "一个导航", link: "https://nav.imsyy.top/", newTab: true },
+      //     { text: "站点订阅", link: "https://blog.imsyy.top/rss.xml", newTab: true },
+      //     {
+      //       text: "反馈投诉",
+      //       link: "https://eqnxweimkr5.feishu.cn/share/base/form/shrcnCXCPmxCKKJYI3RKUfefJre",
+      //       newTab: true,
+      //     },
+      //   ],
+      // },
     ],
   },
   // 评论
@@ -358,7 +358,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2025-01-29",
+        date: '2026-02-17',
       },
     },
     // 站点数据
