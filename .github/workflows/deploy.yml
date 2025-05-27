@@ -43,5 +43,5 @@ jobs:
           rsync -avz --delete \
           --exclude .git \
           --exclude .github \
-          ./dist/ \
+          ./.vitepress/dist/ \
           ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:/var/www/app/
