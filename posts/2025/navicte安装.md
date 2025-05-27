@@ -1,0 +1,12 @@
+---
+title: Navicte破解安装
+tags: [Utils]
+categories: [技术]
+date: 2025-05-10
+description: 关于安装一些工具的文章
+articleGPT: navicte安装
+references:
+  - title: ngvicte安装
+    url: http://bopeng.top
+---
+

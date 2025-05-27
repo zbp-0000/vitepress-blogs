@@ -1,0 +1,13 @@
+---
+title: 欢迎使用 Curve
+tags: [Hello]
+categories: [随便说说]
+date: 2024-10-10
+description: 欢迎使用 Curve 主题，这是你的第一篇文章
+articleGPT: 这是一篇初始化文章，旨在告诉用户一些使用说明和须知。
+references:
+  - title: vitepress-theme-curve
+    url: https://github.com/imsyy/vitepress-theme-curve
+---
+
+# Java项目启动
