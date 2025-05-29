@@ -3,7 +3,7 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Peng’s Log",
+    title: "Peng",
     // 站点描述
     description: "Hello World",
     // 站点logo
@@ -224,14 +224,14 @@ export const themeConfig = {
       // 是否开启封面显示 文章不设置cover封面会显示异常，可以设置下方默认封面
       enable: true,
       // 封面布局方式: left | right | both
-      coverLayout: "both",
+      coverLayout: 'both',
       // 默认封面(随机展示)
       defaultCover: [
-        "https://example.com/1.avif",
-        "https://example.com/2.avif",
-        "https://example.com/3.avif",
-      ],
-    },
+        'https://example.com/1.avif',
+        'https://example.com/2.avif',
+        'https://example.com/3.avif'
+      ]
+    }
   },
   // 页脚信息
   footer: {
@@ -358,7 +358,7 @@ export const themeConfig = {
       // 倒计时日期
       data: {
         name: "春节",
-        date: "2026-02-17",
+        date: '2026-02-17',
       },
     },
     // 站点数据

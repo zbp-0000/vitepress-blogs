@@ -75,7 +75,7 @@ const props = defineProps({
     default: false,
   },
 });
-console.log("props.listData", props.listData);
+console.log(props.listData);
 const { theme: themeConfig } = useData();
 
 // 计算布局类型
