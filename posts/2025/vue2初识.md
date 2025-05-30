@@ -8,7 +8,7 @@ articleGPT: 这是一篇初始化文章，旨在告诉用户一些使用说明�
 references:
   - title: vue2相关文章
     url: http://bopeng.top
-cover: http://cdn.bopeng.top/blog/Sara11715864931507685.jpg
+cover: http://cdn.bopeng.top/blog/vue.webp
 ---
 
 # 初识

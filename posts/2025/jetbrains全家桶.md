@@ -8,7 +8,7 @@ articleGPT: 如何安装破解版IDER。
 references:
   - title: 关于软件的安装
     url: http://bopeng.top
-cover: http://cdn.bopeng.top/blog/Sara11715864931507685.jpg
+cover: http://cdn.bopeng.top/blog/2023_07_History-of-Java.jpg
 ---
 
 # 前言
