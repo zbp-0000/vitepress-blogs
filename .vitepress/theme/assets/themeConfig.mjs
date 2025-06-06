@@ -16,12 +16,12 @@ export const themeConfig = {
     author: {
       name: "Admin",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
-      link: "https://www.bopeng.top",
+      email: "zbp9909@gmail.com",
+      link: "http://www.bopeng.top",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "蜀ICP备2024047747号",
   // 建站日期
   since: "2020-07-28",
   // 每页文章数据
@@ -126,13 +126,13 @@ export const themeConfig = {
         { text: "效率工具", link: "/pages/tools", icon: "tools" },
       ],
     },
-    {
-      text: "友链",
-      items: [
-        { text: "友链鱼塘", link: "/pages/friends", icon: "fish" },
-        { text: "友情链接", link: "/pages/link", icon: "people" },
-      ],
-    },
+    // {
+    //   text: "友链",
+    //   items: [
+    //     { text: "友链鱼塘", link: "/pages/friends", icon: "fish" },
+    //     { text: "友情链接", link: "/pages/link", icon: "people" },
+    //   ],
+    // },
     {
       text: "我的",
       items: [
@@ -179,41 +179,41 @@ export const themeConfig = {
     //     },
     //   ],
     // },
-    // {
-    //   name: "项目",
-    //   list: [
-    //     {
-    //       icon: "/images/logo/logo.webp",
-    //       name: "Curve",
-    //       url: "https://github.com/zbp-0000vitepress-theme-curve",
-    //     },
-    //     {
-    //       icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-    //       name: "SPlayer",
-    //       url: "https://github.com/zbp-0000SPlayer",
-    //     },
-    //     {
-    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-    //       name: "Snavigation",
-    //       url: "https://github.com/zbp-0000SPlayer",
-    //     },
-    //     {
-    //       icon: "/images/logo/logo.webp",
-    //       name: "Home",
-    //       url: "https://github.com/zbp-0000home",
-    //     },
-    //     {
-    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-    //       name: "DailyHotApi",
-    //       url: "https://github.com/zbp-0000DailyHotApi",
-    //     },
-    //     {
-    //       icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-    //       name: "site-status",
-    //       url: "https://github.com/zbp-0000site-status",
-    //     },
-    //   ],
-    // },
+    {
+      name: "项目",
+      list: [
+        {
+          icon: "/images/logo/logo.webp",
+          name: "低代码平台",
+          url: "http://editor.bopeng.top/",
+        },
+        // {
+        //   icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
+        //   name: "SPlayer",
+        //   url: "https://github.com/zbp-0000SPlayer",
+        // },
+        // {
+        //   icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
+        //   name: "Snavigation",
+        //   url: "https://github.com/zbp-0000SPlayer",
+        // },
+        // {
+        //   icon: "/images/logo/logo.webp",
+        //   name: "Home",
+        //   url: "https://github.com/zbp-0000home",
+        // },
+        // {
+        //   icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
+        //   name: "DailyHotApi",
+        //   url: "https://github.com/zbp-0000DailyHotApi",
+        // },
+        // {
+        //   icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
+        //   name: "site-status",
+        //   url: "https://github.com/zbp-0000site-status",
+        // },
+      ],
+    },
   ],
   // 封面配置
   cover: {
@@ -243,24 +243,24 @@ export const themeConfig = {
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
+        link: "https://github.com/zbp-0000/",
       },
-      {
-        icon: "telegram",
-        link: "https://t.me/bottom_user",
-      },
+      // {
+      //   icon: "telegram",
+      //   link: "https://t.me/bottom_user",
+      // },
       {
         icon: "bilibili",
-        link: "https://space.bilibili.com/98544142",
+        link: "https://space.bilibili.com/149277003",
       },
       {
         icon: "qq",
-        link: "https://res.abeim.cn/api/qq/?qq=1539250352",
+        link: "https://res.abeim.cn/api/qq/?qq=487602586",
       },
-      {
-        icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
-      },
+      // {
+      //   icon: "twitter-x",
+      //   link: "https://twitter.com/iimmsyy",
+      // },
     ],
     // sitemap
     sitemap: [
@@ -273,15 +273,19 @@ export const themeConfig = {
           { text: "文章归档", link: "/pages/archives", newTab: true },
         ],
       },
-      // {
-      //   text: "项目",
-      //   items: [
-      //     { text: "Home", link: "https://github.com/zbp-0000home/", newTab: true },
-      //     { text: "SPlayer", link: "https://github.com/zbp-0000SPlayer/", newTab: true },
-      //     { text: "DailyHotApi", link: "https://github.com/zbp-0000DailyHotApi/", newTab: true },
-      //     { text: "Snavigation", link: "https://github.com/zbp-0000Snavigation/", newTab: true },
-      //   ],
-      // },
+      {
+        text: "项目",
+        items: [
+          // { text: "Home", link: "https://github.com/zbp-0000home/", newTab: true },
+          {
+            text: "低代码平台",
+            link: "https://github.com/zbp-0000/vue-visual-editor",
+            newTab: true,
+          },
+          // { text: "DailyHotApi", link: "https://github.com/zbp-0000DailyHotApi/", newTab: true },
+          // { text: "Snavigation", link: "https://github.com/zbp-0000Snavigation/", newTab: true },
+        ],
+      },
       {
         text: "专栏",
         items: [
@@ -401,9 +405,9 @@ export const themeConfig = {
   rewardData: {
     enable: true,
     // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
+    wechat: "",
     // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
+    alipay: "",
   },
   // 图片灯箱
   fancybox: {

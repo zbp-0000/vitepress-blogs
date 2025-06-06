@@ -5,7 +5,7 @@
       <!-- 介绍 -->
       <div class="about-item hello">
         <span class="text1">你好，很高兴认识你👋</span>
-        <span class="text2 title2">我是 無名</span>
+        <span class="text2 title2">我是 鹏泊工</span>
         <span class="text3">是一名 前端开发工程师、独立开发者、博主</span>
       </div>
       <!-- 追求 -->
@@ -142,14 +142,14 @@
       <div class="about-item child">
         <div
           class="about-item map image"
-          style="background-image: url(https://pic.efefee.cn/uploads/2024/04/15/661cbccc56af5.webp)"
+          style="background-image: url(http://cdn.bopeng.top/blog/sichuan-map.webp)"
         >
-          <span class="position">我现在住在 <strong>中国，河南省</strong></span>
+          <span class="position">我现在住在 <strong>中国，四川省</strong></span>
         </div>
         <div class="about-item info">
           <div class="info-item">
             <span class="info-name">生于</span>
-            <span class="info-num" style="--color: #43a6c6">2001</span>
+            <span class="info-num" style="--color: #43a6c6">2000</span>
           </div>
           <div class="info-item">
             <span class="info-name">现在职业</span>
@@ -219,12 +219,6 @@ const skillsData = [
     color: "#026E00",
     icon: "nodejs",
     link: "https://nodejs.org/",
-  },
-  {
-    name: "Python",
-    color: "#3776AB",
-    icon: "python",
-    link: "https://www.python.org/",
   },
   {
     name: "Docker",
